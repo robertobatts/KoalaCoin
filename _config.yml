@@ -8,12 +8,13 @@ url: "https://robertobatts.github.io"
 
 # User settings
 username: KoalaCoin
-user_title: The ultimate animal based coin
+user_title: The ultimate animal based coin. The first coin with free give aways
 email: anon@anon.com
 twitter_username: lorem_ipsum
 github_username:  lorem_ipsum
 gplus_username:  lorem_ipsum
 reddit_link: https://www.reddit.com/r/KoalaCoin/
+pancake_link: https://pancakeswap.finance/swap?outputCurrency=0xe75d9c2b47baec78b9778be72cddc59ead3a69b8
 
 # Google-analytics
 google-analytics:
