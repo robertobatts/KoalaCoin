@@ -13,17 +13,18 @@
   @media only screen and (min-width: $cut) {
     width: 30vw;
   }
+  
+  a {
+    text-decoration: none;
+    color: cornflowerblue;
+    font-weight: bolder;
+  }
 }
 
 img {
   height: 100px;
 }
 
-a {
-  text-decoration: none;
-  color: cornflowerblue;
-  font-weight: bolder;
-}
 
 .fa-check {
   color: green;

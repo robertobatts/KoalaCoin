@@ -2,8 +2,13 @@
   <div class="header">
       <h1>
         <span class="site-title">{{site.username}}</span>
-        <span class="site-description">{{site.user_title}}</span>
+        <div class="separator"></div>
+        <span class="site-description">{{site.user_title_1}}</span>
+        <span class="site-description">{{site.user_title_2}}</span>
+        <div class="separator"></div>
+        <span class="contract">Contract: <a aria-label="Buy on Pancake"  class="contract-link" target="_blank" href="{{site.pancake_link}}">0xe75d9c2b47baec78b9778be72cddc59ead3a69b8</a></span>
       </h1>
+      <div class="separator"></div>
       <div class="header-icons">
         <a aria-label="Buy on Pancake" target="_blank" href="{{site.pancake_link}}"><i class="icon fa fa-exchange"></i></a>
         <a aria-label="Reddit" target="_blank" href="{{site.reddit_link}}"><i class="icon fa fa-reddit" aria-hidden="true"></i></a>
@@ -11,7 +16,7 @@
       </div>
       <div class="header-links">
         <a class="link" href="#about" data-scroll>About</a>
-        <a class="link" href="#howtobuy" data-scroll><b>How To Buy</b></a>
+        <a class="link" href="#howtobuy"style="font-weight: bolder" data-scroll>How To Buy</a>
         <a class="link" href="#roadmap" data-scroll>RoadMap</a>
       </div>
   </div>
