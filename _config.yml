@@ -1,8 +1,8 @@
 # Site settings
 title: KoalaCoin
 description: The first coin with free giveaways
-baseurl: "/KoalaCoin"
-url: "https://robertobatts.github.io"
+baseurl: ""
+url: "https://koalacoin.money"
 
 # User settings
 username: KoalaCoin
