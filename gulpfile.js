@@ -89,4 +89,4 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', gulp.series(['js', 'sass', 'fonts', 'browser-sync', 'watch']));
-gulp.task('deploy', gulp.series(['js', 'sass', 'fonts']));
+gulp.task('deploy', gulp.series(['js', 'sass', 'fonts', 'jekyll-build']));
