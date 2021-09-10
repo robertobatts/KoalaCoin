@@ -107,10 +107,11 @@
   p {
     font-size: 1em;
     line-height: 1.75em;
-    border-top: 3px solid;
+    border-top: 5px solid;
+    border-bottom: 0px;
     border-image: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
     border-image-slice: 1;
-    border-width: 3px;
+    border-width: 5px;
     margin: 0;
     padding: 40px;
     counter-increment: section;
@@ -134,7 +135,8 @@
   }
   //odd number borders
   p:nth-child(odd) {
-    border-right: 3px solid;
+    border-right: 5px solid;
+    border-left: 0px;
     padding-left: 0;
     
     &:before {
@@ -144,7 +146,8 @@
   }
   //even number borders
   p:nth-child(even) {
-    border-left: 3px solid;
+    border-left: 5px solid;
+    border-right: 0px;
     padding-right: 0;
     
     &:before {
