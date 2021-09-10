@@ -5,6 +5,12 @@
   @media only screen and (min-width: $cut) {
     width: 80%;
   }
+
+  a {
+    text-decoration: none;
+    color: cornflowerblue;
+    font-weight: bolder;
+  }
 }
 
 .tech {
@@ -19,12 +25,12 @@
     color: cornflowerblue;
     font-weight: bolder;
   }
-}
 
-img {
-  height: 100px;
+  img {
+    height: 100px;
+  }
+  
 }
-
 
 .fa-check {
   color: green;

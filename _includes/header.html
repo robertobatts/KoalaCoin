@@ -1,24 +1,30 @@
 <div id="particles-js">
   <div class="header">
-      <h1>
-        <span class="site-title">{{site.username}}</span>
-        <div class="separator"></div>
-        <span class="site-description">{{site.user_title_1}}</span>
-        <span class="site-description">{{site.user_title_2}}</span>
-        <div class="separator"></div>
-        <span class="contract">Contract: <a aria-label="Buy on Pancake"  class="contract-link" target="_blank" href="{{site.pancake_link}}">0xe75d9c2b47baec78b9778be72cddc59ead3a69b8</a></span>
-      </h1>
+    <h1>
+      <div class="site-title">
+        <div><img src="{{ " /assets/img/koalacoin-logo.svg" | prepend: site.baseurl }}"></img></div>
+        <div>{{site.username}}</div>
+      </div>
       <div class="separator"></div>
-      <div class="header-icons">
-        <a aria-label="Buy on Pancake" target="_blank" href="{{site.pancake_link}}"><i class="icon fa fa-exchange"></i></a>
-        <a aria-label="Reddit" target="_blank" href="{{site.reddit_link}}"><i class="icon fa fa-reddit" aria-hidden="true"></i></a>
-        <a aria-label="My Instagram" target="_blank" href="#"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
-      </div>
-      <div class="header-links">
-        <a class="link" href="#about" data-scroll>About</a>
-        <a class="link" href="#howtobuy"style="font-weight: bolder" data-scroll>How To Buy</a>
-        <a class="link" href="#roadmap" data-scroll>RoadMap</a>
-      </div>
+      <span class="site-description">{{site.user_title_1}}</span>
+      <span class="site-description">{{site.user_title_2}}</span>
+      <!--<div class="separator"></div>
+      <span class="contract">Contract: <a aria-label="BscScan" class="contract-link" target="_blank"
+          href="{{site.bscscan_link}}">0xe75d9c2b47baec78b9778be72cddc59ead3a69b8</a></span>-->
+    </h1>
+    <div class="separator"></div>
+    <div class="header-icons">
+      <a aria-label="Buy on Pancake" target="_blank" href="{{site.pancake_link}}"><i
+          class="icon fa fa-exchange"></i></a>
+      <a aria-label="Reddit" target="_blank" href="{{site.reddit_link}}"><i class="icon fa fa-reddit"
+          aria-hidden="true"></i></a>
+      <a aria-label="My Instagram" target="_blank" href="#"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
+    </div>
+    <div class="header-links">
+      <a class="link" href="#about" data-scroll>About</a>
+      <a class="link" href="#howtobuy" style="font-weight: bolder" data-scroll>How To Buy</a>
+      <a class="link" href="#roadmap" data-scroll>Roadmap</a>
+    </div>
   </div>
   <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
 </div>

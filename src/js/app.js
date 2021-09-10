@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "nb_sides": 5
         },
         "image": {
-          "src": "assets/img/logo4.png",
+          "src": "assets/img/koala-particle.png",
           "width": 150,
           "height": 100 
         }

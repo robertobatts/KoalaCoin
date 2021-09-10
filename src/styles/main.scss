@@ -14,9 +14,13 @@
 .separator {
   justify-content: center;
   margin: 2px 0;
-  width: 80%;
+  width: 60%;
   height: 1px;
   border-bottom: 1px solid white;
   display: inline-block;
   position: relative;
+
+  @media only screen and (min-width:$cut){
+    width: 40%;
+  }
 }
