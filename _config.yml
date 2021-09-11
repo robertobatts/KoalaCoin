@@ -18,6 +18,6 @@ bscscan_link: https://bscscan.com/token/0xe75d9c2b47baec78b9778be72cddc59ead3a69
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-207403619-1"
 
 exclude: ['package.json', 'src' , 'node_modules']
