@@ -104,6 +104,13 @@
   max-width: 600px;
   margin: auto;
 
+  .completed {
+      
+    &:before {
+      background: linear-gradient(to right, rgba(0,181,78,1) 0%, rgba(26,17,135,1) 100%) !important;
+    }
+  }
+  
   .roadmap-line {
     font-size: 1em;
     line-height: 1.75em;
@@ -117,7 +124,7 @@
     counter-increment: section;
     position: relative;
     color: black;
-    
+
     //numbers
     &:before {
       content: counter(section);
