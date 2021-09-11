@@ -7,6 +7,8 @@
 @import 'animation';
 @import 'header';
 @import 'about';
+@import 'howtobuy';
+@import 'koalavsdoge';
 @import 'projects';
 @import 'footer';
 
@@ -44,6 +46,18 @@
   margin-left: 1px;
 }
 
+.bullet-point {
+  border: solid 4px transparent;
+  border-radius: 100%;
+  background-image: linear-gradient(white, white), linear-gradient(to right, rgba(0,181,78,0.74) 20%, rgba(26,17,135,0.8) 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  width: 0px;
+  height: 0px;
+  left: -25px;
+  top: 8px;
+} 
+
 .fa-check {  
   background: linear-gradient(to right, rgba(0,181,78,0.74) 20%, rgba(26,17,135,0.8) 100%);
   font-size: 25px;
@@ -58,4 +72,15 @@
   color: transparent;
   -webkit-background-clip: text !important;
   background-clip: text !important;
+}
+
+.contract {
+  font-size: 10px;
+  display: block;
+  margin-top: 10px;
+  font-weight: bolder;
+  @media only screen and (min-width:$cut){
+    font-size: 16px;
+  }
+
 }

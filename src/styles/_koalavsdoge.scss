@@ -1,0 +1,14 @@
+#koalavsdoge {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 960px;
+  @media only screen and (min-width: $cut) {
+    width: 80%;
+  }
+
+  a {
+    text-decoration: none;
+    color: cornflowerblue;
+    font-weight: bolder;
+  }
+}

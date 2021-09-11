@@ -68,22 +68,6 @@
       font-size: 25px;
     }
   }
-  .contract {
-    font-size: 13px;
-    display: block;
-    line-height: 1;
-    color: #FFF;
-    margin-top: 10px;
-    font-weight: bolder;
-    @media only screen and (min-width:$cut){
-      font-size: 25px;
-    }
-
-    .contract-link {
-      text-decoration: underline !important;
-      color: #FFF !important;
-    }
-  }
 }
 
 .header-links {
@@ -93,10 +77,20 @@
     text-decoration: none;
     font-size: 15px;
     margin: 10px;
+    display: inline-block;
     @media only screen and (min-width:$cut){
       font-size: 20px;
     }
   }
+}
+
+.howtobuy-link {
+  font-weight: bolder;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .header-icons {
