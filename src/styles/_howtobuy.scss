@@ -1,0 +1,15 @@
+#howtobuy {
+  justify-content: center;
+  width: 80%;
+  max-width: 90vw;
+  margin: 0 auto;
+  @media only screen and (min-width: $cut) {
+    width: 80%;
+  }
+}
+
+.howtobuy-list {
+  margin: auto;
+  width: fit-content;
+  text-align: left;
+}

@@ -7,6 +7,7 @@
 @import 'animation';
 @import 'header';
 @import 'about';
+@import 'howtobuy';
 @import 'projects';
 @import 'footer';
 
@@ -58,4 +59,16 @@
   color: transparent;
   -webkit-background-clip: text !important;
   background-clip: text !important;
+}
+
+.bullet-point {
+  border: solid 4px transparent;
+  border-radius: 100%;
+  background-image: linear-gradient(white, white), linear-gradient(to right, rgba(0,181,78,0.74) 20%, rgba(26,17,135,0.8) 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  width: 0px;
+  height: 0px;
+  left: -25px;
+  top: 8px;
 }
