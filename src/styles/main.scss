@@ -1,6 +1,6 @@
 @import "lib/normalize";
-@import "lib/fontawesome";
 @import "lib/devicon";
+@import "lib/fontawesome";
 
 @import 'base';
 @import 'vars';
@@ -23,4 +23,38 @@
   @media only screen and (min-width:$cut){
     width: 40%;
   }
+}
+
+.fa-check-square {  
+  background: linear-gradient(to right, rgba(0,181,78,0.74) 20%, rgba(26,17,135,0.8) 100%);
+  font-size: 25px;
+  color: transparent;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+}
+
+.out-square {
+  border: solid 2px transparent;
+  border-radius: 20%;
+  background-image: linear-gradient(white, white), linear-gradient(to right, rgba(0,181,78,0.74) 20%, rgba(26,17,135,0.8) 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  width: 16px;
+  height: 16px;
+}
+
+.fa-check {  
+  background: linear-gradient(to right, rgba(0,181,78,0.74) 20%, rgba(26,17,135,0.8) 100%);
+  font-size: 25px;
+  color: transparent;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+}
+
+.fa-times {
+  background: linear-gradient(to right,rgb(244,67,54) 0%, rgb(31,74,154) 100%);
+  font-size: 25px;
+  color: transparent;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
 }
