@@ -1,0 +1,73 @@
+.contract-block {
+  margin: 18px 0px;
+  color: #333;
+  font-weight: bolder;
+  display: inline;
+}
+
+.copy-button {
+  display: inline-block;
+  font-size: 16px;
+  padding: 5px;
+  margin-left: -32px;
+  border-radius: 7px;
+  vertical-align: middle;
+  background: #ffffff54;
+  cursor: pointer;
+  border-style: solid;
+  border-color: #333;
+  border-width: 1px;
+}
+
+pre {
+  background: linear-gradient(to right, rgba(0,181,78,0.4) 20%, rgba(128, 124, 175, 0.8) 100%);
+  overflow-x: auto;
+  word-wrap: normal;
+  max-width: 60vw;
+  width: fit-content;
+  padding: 0px 35px 0px 20px;
+  border-radius: 7px;
+  display: inline-block;
+  margin: 0px;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 14px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}

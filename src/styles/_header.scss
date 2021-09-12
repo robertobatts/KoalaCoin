@@ -68,6 +68,14 @@
       font-size: 25px;
     }
   }
+
+  pre {
+    font-size: 18px;
+  }
+
+  .contract-block-container {
+    margin: 20px auto 10px auto;
+  }
 }
 
 .header-links {
@@ -155,4 +163,5 @@
         color: $sec;
       }
   }
+
 }

@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", function () {
           "nb_sides": 5
         },
         "image": {
-          "src": "assets/img/koala-particle.png",
+          "src": "assets/img/koalacoin-icon.png",
           "width": 150,
-          "height": 100 
+          "height": 150 
         }
       },
       "opacity": {
