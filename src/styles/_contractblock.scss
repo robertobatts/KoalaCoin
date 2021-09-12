@@ -2,14 +2,14 @@
   margin: 18px 0px;
   color: #333;
   font-weight: bolder;
-  display: inline;
+  display: inline-table;
 }
 
 .copy-button {
   display: inline-block;
   font-size: 16px;
   padding: 5px;
-  margin-left: -32px;
+  margin-left: -28px;
   border-radius: 7px;
   vertical-align: middle;
   background: #ffffff54;
@@ -31,7 +31,18 @@ pre {
   margin: 0px;
   height: 100%;
   vertical-align: middle;
+
+
+  &::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #00000038;
+    border-radius: 8px;
+  }
 }
+
 
 .tooltip {
   position: relative;
