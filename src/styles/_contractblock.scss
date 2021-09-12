@@ -12,7 +12,7 @@
   margin-left: -28px;
   border-radius: 7px;
   vertical-align: middle;
-  background: #ffffff54;
+  background: linear-gradient(to left, rgba(34, 148, 181, 0.8) 0%, rgba(34, 148, 181, 0.6) 100%);
   cursor: pointer;
   border-style: solid;
   border-color: #333;
@@ -20,7 +20,7 @@
 }
 
 pre {
-  background: linear-gradient(to right, rgba(0,181,78,0.4) 20%, rgba(128, 124, 175, 0.8) 100%);
+  background: linear-gradient(to right, rgba(0,181,78,0.4) 20%, rgba(34, 148, 181, 0.8) 100%);
   overflow-x: auto;
   word-wrap: normal;
   max-width: 60vw;
@@ -59,9 +59,8 @@ pre {
   padding: 5px;
   position: absolute;
   z-index: 1;
-  bottom: 150%;
-  left: 50%;
-  margin-left: -75px;
+  bottom: 130%;
+  right: 0%;
   opacity: 0;
   transition: opacity 0.3s;
   font-size: 14px;
@@ -71,7 +70,7 @@ pre {
   content: "";
   position: absolute;
   top: 100%;
-  left: 50%;
+  left: 90%;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
@@ -80,5 +79,5 @@ pre {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
-  opacity: 1;
+  opacity: 0.8; 
 }
